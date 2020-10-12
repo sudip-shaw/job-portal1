@@ -1,0 +1,374 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>EKAJ &mdash; A Job Portal</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Free-Template.co" />
+    <link rel="shortcut icon" href="ftco-32x32.png">
+    
+    <link rel="stylesheet" href="css/custom-bs.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="fonts/line-icons/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">  
+  </head>
+  <body id="top">
+
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+    
+
+<div class="site-wrap">
+
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div> <!-- .site-mobile-menu -->
+    
+
+    <!-- NAVBAR -->
+    <header class="site-navbar mt-3">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="site-logo col-6"><img src="images/logo.png" alt="logo" width="250" height="220"></div>
+
+          <nav class="mx-auto site-navigation">
+            <ul class="site-menu js-clone-nav d-none d-xl-block ml-0 pl-0">
+              <li><a href="index.html" class="nav-link active">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="has-children">
+                <a href="job-listings.html">Job Listings</a>
+                <ul class="dropdown">
+                  <li><a href="#">Post a Job</a></li>
+                  <li><a href="index.html">View Jobs</a></li>
+                </ul>
+              </li>
+              
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact</a></li>
+
+              <li class="has-children">
+                <a href="services.html">More</a>
+                <ul class="dropdown">
+                  <li><a href="services.html">Courses Offered</a></li>
+                  <li><a href="testimonials.html">Testimonials</a></li>
+                  <li><a href="faq.html">Frequently Ask Questions</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+              </li>
+
+
+              <li class="d-lg-none"><a href="post-job.html"><span class="mr-2">+</span> Post a Job</a></li>
+              <li class="d-lg-none"><a href="login.html">Log In</a></li>
+            </ul>
+          </nav>
+          
+          <div class="right-cta-menu text-right d-flex aligin-items-center col-6">
+            <div class="ml-auto">
+              <a href="post-job.html" class="btn btn-outline-white border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-add"></span>Post a Job</a>
+              <a href="login.html" class="btn btn-primary border-width-2 d-none d-lg-inline-block"><span class="mr-2 icon-lock_outline"></span>Log In</a>
+            </div>
+            <a href="#" class="site-menu-toggle js-menu-toggle d-inline-block d-xl-none mt-lg-2 ml-3"><span class="icon-menu h3 m-0 p-0 mt-2"></span></a>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <!-- HOME -->
+    <section class="home-section section-hero overlay bg-image" style="background-image: url('images/hero_1.jpg');" id="home-section">
+
+      <div class="container">
+        <div class="row align-items-center justify-content-center">
+          <div class="col-md-12">
+            <div class="mb-5 text-center">
+              <h1 class="text-white font-weight-bold">Are You Searching for Your DREAM JOB ?</h1>
+              <p>E.K.A.J. is the home of your dream job</p>
+            </div>
+            <form method="#" class="search-jobs-form" id="searchJob">
+              <div class="row mb-5">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                  <input type="text" class="form-control form-control-lg" placeholder="Job title, Company..." name="jobName">
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Region" name="region"> 
+                    <option>Anywhere</option>
+                    <option>Across India</option>
+                    <option>Delhi</option>
+                    <option>Bangalore</option>
+                    <option>Pune</option>
+                    <option>Kolkata</option>
+                    <option>Hyderabad</option>
+                    <option>Chennai</option>
+                    <option>Mumbai</option>
+                  </select>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                  <select class="selectpicker" data-style="btn-white btn-lg" data-width="100%" data-live-search="true" title="Select Job Type" name="jobTitle">
+                    <option>Internship</option>
+                    <option>Full Time</option>
+                  </select>
+                </div>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 mb-4 mb-lg-0">
+                  <button type="submit" class="btn btn-primary btn-lg btn-block text-white btn-search"><span class="icon-search icon mr-2"></span>Search Job</button>
+                </div>
+              </div>
+            </form>
+            <ul class="job-listings mb-5" id="job-searched-lists" style="width: 100%; height: 11em; overflow: auto; display: none;">
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <a href="#next" class="scroll-button smoothscroll">
+        <span class=" icon-keyboard_arrow_down"></span>
+      </a>
+
+    </section>
+    
+    <section class="py-5 bg-image overlay-primary fixed overlay" id="next" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-2 text-white">E.K.A.J Site Stats</h2>
+            <p class="lead text-white"></p>
+          </div>
+        </div>
+        <div class="row pb-0 block__19738 section-counter">
+
+          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <strong class="number" data-number="1000">0</strong>
+            </div>
+            <span class="caption">Candidates</span>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <strong class="number" data-number="99">0</strong>
+            </div>
+            <span class="caption">Jobs Posted</span>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <strong class="number" data-number="78">0</strong>
+            </div>
+            <span class="caption">Jobs Filled</span>
+          </div>
+
+          <div class="col-6 col-md-6 col-lg-3 mb-5 mb-lg-0">
+            <div class="d-flex align-items-center justify-content-center mb-2">
+              <strong class="number" data-number="25">0</strong>
+            </div>
+            <span class="caption">Companies</span>
+          </div>
+
+            
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="site-section">
+      <div class="container">
+
+        <div class="row mb-5 justify-content-center">
+          <div class="col-md-7 text-center">
+            <h2 class="section-title mb-2">100 Job Listed</h2>
+          </div>
+        </div>
+        
+        <ul class="job-listings mb-5" id="job-lists">
+        </ul>
+
+        <div class="row pagination-wrap">
+          <div class="col-md-6 text-center text-md-left mb-4 mb-md-0">
+            <span>Showing 1-10 Of 100 Jobs</span>
+          </div>
+          <div class="col-md-6 text-center text-md-right">
+            <div class="custom-pagination ml-auto">
+              <a href="#" class="prev" id="prevButton">Prev</a>
+              <div class="d-inline-block" id="jobsPages">
+              
+              </div>
+              <a href="#" class="next" id="nextButton">Next</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="py-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h2 class="text-white">Looking For A Job?</h2>
+            <p class="mb-0 text-white lead">E.K.A.J. is here to show you the right path</p>
+          </div>
+          <div class="col-md-3 ml-auto">
+            <a href="#" class="btn btn-warning btn-block btn-lg">Sign Up</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    
+
+    <section class="bg-light pt-5 testimony-full">
+        
+        <div class="owl-carousel single-carousel">
+
+        
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 align-self-center text-center text-lg-left">
+                <blockquote>
+                  <p>&ldquo;The only way to do great work is to love what you do. If you haven't found it yet, keep looking. Don't settle. &rdquo;</p>
+                  <p><cite> &mdash;Steve Jobs</cite></p>
+                </blockquote>
+              </div>
+              <div class="col-lg-6 align-self-end text-center text-lg-right">
+                <img src="images/person_transparent2.png" alt="Image" class="img-fluid mb-0">
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 align-self-center text-center text-lg-left">
+                <blockquote>
+                  <p>&ldquo;“It is Important to Follow Your Dreams and Heart. Do Something that Excites You.”&rdquo;</p>
+                  <p><cite> &mdash; Sundar Pichai</cite></p>
+                </blockquote>
+              </div>
+              <div class="col-lg-6 align-self-end text-center text-lg-right">
+                <img src="images/person_transparent.png" alt="Image" class="img-fluid mb-0">
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+    </section>
+
+    <section class="pt-5 bg-image overlay-primary fixed overlay" style="background-image: url('images/hero_1.jpg');">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center text-center text-md-left mb-5 mb-md-0">
+            <h2 class="text-white">Comming Soon !!</h2>
+            <p class="mb-5 lead text-white">Our APP will be available Soon</p>
+            <p class="mb-0">
+              <a href="#" class="btn btn-dark btn-md px-4 border-width-2"><span class="icon-apple mr-3"></span>App Store</a>
+              <a href="#" class="btn btn-dark btn-md px-4 border-width-2"><span class="icon-android mr-3"></span>Play Store</a>
+            </p>
+          </div>
+          <div class="col-md-6 ml-auto align-self-end">
+            <img src="images/apps.png" alt="Free Website Template by Free-Template.co" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="site-footer">
+
+      <a href="#top" class="smoothscroll scroll-top">
+        <span class="icon-keyboard_arrow_up"></span>
+      </a>
+
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Trending Courses</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Web Development</a></li>
+              <li><a href="#">Data Science</a></li>
+              <li><a href="#">UI/UX Development</a></li>
+              <li><a href="#">Cloud computing</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Information</h3>
+            <ul class="list-unstyled">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="faq.html">FAQs</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Support</h3>
+            <ul class="list-unstyled">
+              <li><a href="copyright.html">Copyright</a></li>
+              <li><a href="privacy.html">Privacy</a></li>
+              <li><a href="termsofservice.html">Terms of Service</a></li>
+              <li><a href="sources.html">Sources</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md-3 mb-4 mb-md-0">
+            <h3>Contact Us</h3>
+            <div class="footer-social">
+              <a href="https://www.facebook.com/engineerkhojo.apnajob.1"><span class="icon-facebook"></span></a>
+              <a href="https://twitter.com/EKAJ88261899"><span class="icon-twitter"></span></a>
+              <a href="https://www.instagram.com/ekaj_2020"><span class="icon-instagram"></span></a>
+              <a href="http://www.linkedin.com/in/e-k-a-j-67a4081b5"><span class="icon-linkedin"></span></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12">
+            <p class="copyright"><small>
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+            </small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  
+  </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/stickyfill.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    
+    <script src="js/bootstrap-select.min.js"></script>
+    
+    <script src="js/custom.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/ListOfJobs.js"></script>
+    <script src="js/Jobs.js"></script>
+    <script src="js/handleJobSearch.js"></script>
+
+     
+  </body>
+</html>
