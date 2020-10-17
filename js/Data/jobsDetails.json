@@ -120,15 +120,6 @@
         "jobStatus": "Full Time"
     }
     
-    "11": {
-        "id": "11",
-        "jobName": "Indian Army",
-        "jobDetailsReference": "https://joinindianarmy.nic.in/writereaddata/Portal/NotificationPDF/SSCW_TECH_27.pdf",
-        "jobLogoPath": "images/indianarmy.jpg",
-        "jobLogoAlternate": "Indian Army",
-        "desc": "Engineering Streams (Click for more Details) ",
-        "jobLocation": "Chennai, Tamil Nadu",
-        "jobStatus": "Full Time"
-    }
+  
 
 }
