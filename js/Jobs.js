@@ -4,7 +4,7 @@ let activePage = jobsPages.querySelector(".active");
 let nextButton = document.querySelector("#nextButton");
 let prevButton = document.querySelector("#prevButton");
 
-let totalJobsInOnePage = 4;
+let totalJobsInOnePage = 5;
 let currentPage = 1;
 let totalJobs = jobsList.length;
 let totalPage = Math.ceil(totalJobs/totalJobsInOnePage);
