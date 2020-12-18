@@ -111,7 +111,7 @@
 
     "10": {
         "id": "10",
-        "jobName": "Wipro",
+        "jobName": "sudip",
         "jobDetailsReference": "https://careers.wipro.com/dwsd",
         "jobLogoPath": "images/wipro.jpg",
         "jobLogoAlternate": "wipro",
@@ -119,16 +119,6 @@
         "jobLocation": "Accross India",
         "jobStatus": "Full Time"
     }
-    "11": {
-        "id": "11",
-        "jobName": "Wipro",
-        "jobDetailsReference": "https://careers.wipro.com/dwsd",
-        "jobLogoPath": "images/wipro.jpg",
-        "jobLogoAlternate": "wipro",
-        "desc": "Digital Workspace Service Desk ",
-        "jobLocation": "Accross India",
-        "jobStatus": "Full Time"
-    }
-      
+        
 
 }
