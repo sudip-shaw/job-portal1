@@ -119,6 +119,128 @@
         "jobLocation": "Accross India",
         "jobStatus": "Full Time"
     }
+        "0": {
+            "id": "0",
+            "jobName": "Cognizant",
+            "jobDetailsReference": "cognizant.html",
+            "jobLogoPath": "images/cognizant.png",
+            "jobLogoAlternate": "Cognizant",
+            "desc": "Frontend, Backend, Mobile, <br>Data and Analytics teams",
+            "jobLocation": "Chennai,Bangalore,Hyderabad",
+            "jobStatus": "Expired"
+        },
+        
+        "11": {
+            "id":"11",
+            "jobName": "Paypal",
+            "jobDetailsReference": "paypal.html",
+            "jobLogoPath": "images/paypal.png",
+            "jobLogoAlternate": "paypal",
+            "desc": "Frontend, Backend, Mobile, <br>Data and Analytics teams",
+            "jobLocation": "Chennai,Bangalore,Hyderabad",
+            "jobStatus": "Expired"
+        },
+    
+    
+    
+        "12": {
+            "id": "12",
+            "jobName": "DXC.technology",
+            "jobDetailsReference": "dxctechnology.html",
+            "jobLogoPath": "images/dxctechnology.png",
+            "jobLogoAlternate": "DXC.technology",
+            "desc": "Associate Professional Data Analyst ",
+            "jobLocation": "Mumbai",
+            "jobStatus": "Expired"
+        },
+    
+        "13": {
+            "id": "13",
+            "jobName": "Accenture",
+            "jobDetailsReference": "accenture.html",
+            "jobLogoPath": "images/accenture.png",
+            "jobLogoAlternate": "Accenture",
+            "desc": "Query Management <br> Service Desk Voice Support",
+            "jobLocation": "BENGALURU",
+            "jobStatus": "Expired"
+        },
+        
+         "14": {
+            "id": "14",
+            "jobName": "HackerRank",
+            "jobDetailsReference": "https://boards.greenhouse.io/hackerrank/jobs/2283605?gh_jid=2283605",
+            "jobLogoPath": "images/hackerrank.png",
+            "jobLogoAlternate": "HackerRank",
+            "desc": "Software Engineer for <br> Winter Internship (6 Months)",
+            "jobLocation": "Banglore",
+            "jobStatus": "Internship"
+        },
+        "15": {
+            "id":"15",
+            "jobName": "NCR",
+            "jobDetailsReference": "https://assessment.hackerearth.com/challenges/hiring/ncr-campus-codewars-2020/",
+            "jobLogoPath": "images/ncr.jpg",
+            "jobLogoAlternate": "NCR",
+            "desc": "Campus CodeWars 2020",
+            "jobLocation": "Hyderabad",
+            "jobStatus": "Expired"
+        },
+    
+        "16": {
+            "id": "16",
+            "jobName": "Cisco",
+            "jobDetailsReference": "https://jobs.cisco.com/jobs/ProjectDetail/Data-Analyst-Intern-India-UHR/1297410",
+            "jobLogoPath": "images/cisco.jpg",
+            "jobLogoAlternate": "cisco",
+            "desc": "Data Analyst",
+            "jobLocation": "Bangalore",
+            "jobStatus": "Internship"
+        },
+    
+        "17": {
+            "id": "17",
+            "jobName": "Thinksys",
+            "jobDetailsReference": "https://www.thinksys.com/jobs/software-trainee/",
+            "jobLogoPath": "images/thinksys.jpg",
+            "jobLogoAlternate": "thinksys",
+            "desc": "Software Trainee",
+            "jobLocation": "Noida",
+            "jobStatus": "Full Time"
+        },
+    
+        "18": {
+            "id": "18",
+            "jobName": "TCS",
+            "jobDetailsReference": "https://www.tcs.com/careers/TCSCampusHiringYoP2021",
+            "jobLogoPath": "images/tcs.jpg",
+            "jobLogoAlternate": "tcs",
+            "desc": "TCS NQT ",
+            "jobLocation": "Accross India",
+            "jobStatus": "Full Time"
+        },
+        "19": {
+            "id": "19",
+            "jobName": "Cognizant",
+            "jobDetailsReference": "https://careers.cognizant.com/global/en/job/00038948332/Associate-Projects",
+            "jobLogoPath": "images/cognizant.jpg",
+            "jobLogoAlternate": "two",
+            "desc": "ASSOCIATE - PROJECTS",
+            "jobLocation": "Chennai",
+            "jobStatus": "Full Time"
+        },
+    
+        "20": {
+            "id": "20",
+            "jobName": "zyxx",
+            "jobDetailsReference": "https://careers.wipro.com/dwsd",
+            "jobLogoPath": "images/wipro.jpg",
+            "jobLogoAlternate": "one",
+            "desc": "Digital Workspace Service Desk ",
+            "jobLocation": "Accross India",
+            "jobStatus": "Full Time"
+        }   
+    
+    }
         
 
 }
