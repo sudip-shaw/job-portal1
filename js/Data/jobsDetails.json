@@ -53,7 +53,7 @@
         "jobLogoAlternate": "HackerRank",
         "desc": "Software Engineer for <br> Winter Internship (6 Months)",
         "jobLocation": "Banglore",
-        "jobStatus": "Internship"
+        "jobStatus":"Expired"
     },
     "5": {
         "id":"5",
@@ -74,7 +74,7 @@
         "jobLogoAlternate": "cisco",
         "desc": "Data Analyst",
         "jobLocation": "Bangalore",
-        "jobStatus": "Internship"
+        "jobStatus": "Expired"
     },
 
     "7": {
@@ -85,7 +85,7 @@
         "jobLogoAlternate": "thinksys",
         "desc": "Software Trainee",
         "jobLocation": "Noida",
-        "jobStatus": "Full Time"
+        "jobStatus": "Expired"
     },
 
     "8": {
@@ -96,7 +96,7 @@
         "jobLogoAlternate": "tcs",
         "desc": "TCS NQT ",
         "jobLocation": "Accross India",
-        "jobStatus": "Full Time"
+        "jobStatus": "Expired"
     },
     "9": {
         "id": "9",
@@ -106,26 +106,26 @@
         "jobLogoAlternate": "Cognizant",
         "desc": "ASSOCIATE - PROJECTS",
         "jobLocation": "Chennai",
-        "jobStatus": "Full Time"
+        "jobStatus": "Expired"
     },
 
     "10": {
         "id": "10",
-        "jobName": "zyxx",
+        "jobName": "Service Desk",
         "jobDetailsReference": "https://careers.wipro.com/dwsd",
         "jobLogoPath": "images/wipro.jpg",
         "jobLogoAlternate": "wipro",
         "desc": "Digital Workspace Service Desk ",
         "jobLocation": "Accross India",
-        "jobStatus": "Full Time"
+        "jobStatus": "Expired"
     },
     "11": {
         "id": "10",
-        "jobName": "zyxx",
-        "jobDetailsReference": "https://careers.wipro.com/dwsd",
+        "jobName": "Wipro",
+        "jobDetailsReference": "jobssingle/wipronht2021.html",
         "jobLogoPath": "images/wipro.jpg",
         "jobLogoAlternate": "wipro",
-        "desc": "Digital Workspace Service Desk ",
+        "desc": "Wipro NHT 2021 ",
         "jobLocation": "Accross India",
         "jobStatus": "Full Time"
     }
