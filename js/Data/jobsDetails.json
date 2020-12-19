@@ -118,14 +118,5 @@
         "desc": "Digital Workspace Service Desk ",
         "jobLocation": "Accross India",
         "jobStatus": "Full Time"
-    },
-    "11": {
-        "id": "10",
-        "jobName": "zyxx",
-        "jobDetailsReference": "https://careers.wipro.com/dwsd",
-        "jobLogoPath": "images/wipro.jpg",
-        "jobLogoAlternate": "wipro",
-        "desc": "Digital Workspace Service Desk ",
-        "jobLocation": "Accross India",
-        "jobStatus": "Full Time"
+    }
 }
